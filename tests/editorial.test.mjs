@@ -9,7 +9,7 @@ const edition = JSON.parse(read('src/data/pewnie.json'));
 const manifest = JSON.parse(read('docs/edition.manifest.json'));
 const stanzas = edition.poem.split('\n\n').map(stanza => stanza.split('\n'));
 const annotationSource = read('src/data/annotations.ts');
-const annotationRe = /\{verse:'([^']+)',phrase:'([^']+)',ids:\[([^\]]+)\]\}/g;
+const annotationRe = /\{verse:'([^']+)',phrase:'([^']+)',ids:\[([^\]]+)\](?:,echoes:\[[^\]]+\])?\}/g;
 const annotations = [...annotationSource.matchAll(annotationRe)].map(([,verse,phrase,ids]) => ({
   verse, phrase, ids: ids.split(',').map(Number),
 }));

@@ -5,6 +5,8 @@ export interface Annotation {
   verse: string;
   phrase: string;
   ids: number[];
+  /** Glosses that only light this fragment up (it is not a hotspot for them). */
+  echoes?: number[];
 }
 export const annotations: Annotation[] = [
   {verse:'0:0',phrase:'PEWNIE',ids:[1,2,3]},
@@ -35,7 +37,7 @@ export const annotations: Annotation[] = [
   {verse:'4:2',phrase:'Mógłbym',ids:[26,27]},
   {verse:'4:2',phrase:'powiedzieć prawdę',ids:[21,22,25]},
   {verse:'5:0',phrase:'A tak',ids:[28]},
-  {verse:'5:0',phrase:'pewnym',ids:[29,32,34]},
+  {verse:'5:0',phrase:'pewnym',ids:[29,32,34],echoes:[1,2,3,4]},
   {verse:'5:1',phrase:'siebie nauczycielem',ids:[15,29,30,31,32]},
   {verse:'6:0',phrase:'Pewnie',ids:[1,2,3]},
   {verse:'6:0',phrase:'człowiekiem jestem',ids:[34,35,36]},
@@ -46,6 +48,7 @@ export const annotations: Annotation[] = [
 export interface VersePiece {
   text: string;
   ids: number[];
+  echoes: number[];
   key: string;
 }
 
@@ -61,12 +64,12 @@ export function renderPieces(text: string, verse: string): VersePiece[] {
   let cursor = 0;
   for (const r of ranges) {
     if (r.from < cursor) throw new Error(`Nachodzące na siebie kotwice w ${verse}`);
-    if (r.from > cursor) result.push({text:text.slice(cursor,r.from),ids:[],key:`${verse}-text-${cursor}`});
-    result.push({text:text.slice(r.from,r.to),ids:r.ids,key:`${verse}-${r.index}`});
+    if (r.from > cursor) result.push({text:text.slice(cursor,r.from),ids:[],echoes:[],key:`${verse}-text-${cursor}`});
+    result.push({text:text.slice(r.from,r.to),ids:r.ids,echoes:r.echoes??[],key:`${verse}-${r.index}`});
     cursor=r.to;
   }
-  if (cursor < text.length) result.push({text:text.slice(cursor),ids:[],key:`${verse}-text-${cursor}`});
-  return result.length ? result : [{text,ids:[],key:`${verse}-whole`}];
+  if (cursor < text.length) result.push({text:text.slice(cursor),ids:[],echoes:[],key:`${verse}-text-${cursor}`});
+  return result.length ? result : [{text,ids:[],echoes:[],key:`${verse}-whole`}];
 }
 
 export function firstAnchorFor(id: number): string | undefined {

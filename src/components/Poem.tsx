@@ -16,7 +16,7 @@ export const Poem = memo(function Poem({glossesEnabled,activeId,onPick}:Props) {
         const verse=`${si}:${li}`;
         return <div className={`verse ${si === 0 ? 'poem-title' : ''}`} key={verse} data-verse={verse}>
           {renderPieces(line,verse).map(piece => piece.ids.length && glossesEnabled
-            ? <button key={piece.key} className={`hotspot ${activeId && piece.ids.includes(activeId) ? 'hotspot-active' : ''}`}
+            ? <button key={piece.key} className={`hotspot ${activeId && (piece.ids.includes(activeId) || piece.echoes.includes(activeId)) ? 'hotspot-active' : ''}`}
                 data-glosses={piece.ids.join(' ')} type="button" aria-label={`${piece.text}, glosy: ${piece.ids.join(', ')}`}
                 aria-pressed={!!activeId && piece.ids.includes(activeId)}
                 onClick={() => onPick(piece.ids,verse)}>{piece.text}</button>
