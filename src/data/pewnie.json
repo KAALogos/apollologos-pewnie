@@ -1,0 +1,546 @@
+{
+  "title": "PEWNIE",
+  "poem": "PEWNIE\n\nPewnie byłbym dobrym adwokatem.\nBronię racji nie jak podległości,\nWierzę w słuszną sprawę,\nDziałam pro bono\nI to nie z urzędu.\n\nByłbym pewnie całkowicie pięknym aktorem.\nUmiem, jak mało kto, naśladować świat\nI ukryć przed nim siebie,\nBy nie zasłaniać innym \nWidoku ich samych.\n\nStand-uperem też pewnie byłbym prawdziwym.\nTrzymam pion najnieprzyzwoiciej\nZnam się na żartach lepiej\nniż oni sami i one same.\nEmocje i reakcje znam \nco najmniej na pamięć.\n\nMógłbym odpowiedzieć na dobro\nMógłbym wypowiedzieć piękno\nMógłbym powiedzieć prawdę.\n\nA tak jestem pewnym\nsiebie nauczycielem.\n\nPewnie człowiekiem jestem.\nJestem pewnie człowiekiem.\nCzłowiekiem jestem pewnie.",
+  "glosses": [
+    {
+      "id": 1,
+      "title": "PEWNIE — wieloznaczność tytułu",
+      "fragment": "PEWNIE",
+      "body": "Tytuł zapowiada zarówno przypuszczenie („prawdopodobnie”), jak i pewność, niezawodność czy stanowczość. Te znaczenia nie są równoważne, ale wiersz konsekwentnie wykorzystuje ich współobecność.",
+      "status": "zaakceptowana",
+      "related": [
+        2,
+        36
+      ]
+    },
+    {
+      "id": 2,
+      "title": "„Pewnie” jako partykuła hipotetyczna",
+      "fragment": "Pewnie",
+      "body": "W „Słowniku gniazdowym partykuł polskich” Grochowskiego, Kisiel i Żabowskiej „pewnie” należy do partykuł epistemicznych, hipotetycznych. Wyraża wniosek oparty na posiadanej wiedzy, ale nie rozstrzygnięcie. Nie jest synonimem „na pewno”.\n\nŹródło: Maciej Grochowski, Anna Kisiel, Magdalena Żabowska, „Słownik gniazdowy partykuł polskich”, Kraków 2014, s. 45–46.",
+      "status": "zaakceptowana",
+      "related": [
+        3,
+        35
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Wędrówka „pewnie”",
+      "fragment": "Pewnie / pewnie / pewnie",
+      "body": "W pierwszych wersach trzech strofoid zawodowych partykuła zajmuje kolejno pierwszą, drugą i trzecią pozycję wyrazową. Zmieniają się też zawody, oceny i układ informacji. Finał podejmuje tę grę szykiem w postaci regularnych permutacji.",
+      "status": "zaakceptowana",
+      "related": [
+        35,
+        34
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Tryb przypuszczający i oznajmujący",
+      "fragment": "byłbym / mógłbym — bronię / umiem",
+      "body": "„Byłbym” i „mógłbym” dotyczą możliwości, natomiast „Bronię”, „Wierzę”, „Działam”, „Umiem”, „Znam” przedstawiają kompetencje jako rzeczywiste. Hipotetyczne są więc kariery, niekoniecznie zdolności.",
+      "status": "zaakceptowana",
+      "related": [
+        27,
+        28
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Komplementy dla nieistniejących zawodów",
+      "fragment": "dobrym / pięknym / prawdziwym",
+      "body": "Podmiot mógłby być dobrym adwokatem, pięknym aktorem, prawdziwym stand-uperem. Rzeczywiście jest nauczycielem, ale ten zawód zostaje określony inaczej. Wartości należą najpierw do możliwości, a pewność siebie — do rzeczywistości.",
+      "status": "zaakceptowana",
+      "related": [
+        21,
+        32
+      ]
+    },
+    {
+      "id": 6,
+      "title": "„dobrym adwokatem” — dwa rodzaje dobra",
+      "fragment": "dobrym adwokatem",
+      "body": "„Dobry” oznacza fachowość, skuteczność, ale również moralną jakość działania. Kolejne wersy przesuwają odczytanie od kompetencji zawodowych ku etyce.",
+      "status": "zaakceptowana",
+      "related": [
+        7,
+        23
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Obrona racji, obrona niepodległości i „sprawa”",
+      "fragment": "Bronię racji nie jak podległości, / Wierzę w słuszną sprawę,",
+      "body": "Fraza „Bronię racji nie jak podległości” przywołuje utrwalone „bronić czegoś jak niepodległości”: bronić stanowiska z najwyższą determinacją, tak jak dobra, którego utrata oznacza podporządkowanie. Wers zachowuje „bronić” i porównanie „jak”, lecz zamienia „niepodległość” na „podległość” oraz wstawia „nie” przed „jak”. Ta operacja narusza idiom i odwraca jego logikę: racji nie należy bronić tak, jak broni się podległości. Jednocześnie w „nie jak podległości” słychać brakującą „niepodległość”.\n\n„Sprawa” łączy cztery pola słownikowe widoczne w dostarczonym haśle: zespół okoliczności, przedmiot zainteresowania; interes, rzecz do załatwienia; wielkie zadanie, wzniosły cel; postępowanie przed sądem. „Słuszna sprawa” jest więc równocześnie przekonaniem moralnym, sprawą, której ktoś jest rzecznikiem, i potencjalnie konkretną sprawą sądową. Adwokat może bronić racji w procesie; wiersz pyta, czy samo przekonanie o słuszności uzasadnia sposób obrony.\n\nGra nie musi znaczyć, że podmiot broni podległości. Składniowo zaprzecza porównaniu sposobów obrony. To rozróżnienie jest ważne.",
+      "status": "zmieniona",
+      "related": [
+        8,
+        9,
+        23
+      ]
+    },
+    {
+      "id": 8,
+      "title": "„Wierzę w słuszną sprawę” — racja a wiara",
+      "fragment": "Wierzę w słuszną sprawę,",
+      "body": "Przejście od „Bronię” do „Wierzę” przenosi uzasadnienie działania z obszaru argumentacji w obszar przekonania. Posiadanie racji i wiara w słuszność sprawy nie są tym samym.",
+      "status": "zaakceptowana",
+      "related": [
+        7,
+        9
+      ]
+    },
+    {
+      "id": 9,
+      "title": "„pro bono” — dosłowny powrót dobra",
+      "fragment": "Działam pro bono",
+      "body": "Łacińskie „pro bono” oznacza działanie dla dobra, w praktyce prawniczej — nieodpłatną pomoc. Wiersz wykorzystuje zarazem znaczenie zawodowe i dosłowny sens elementu „bono”, zapowiadając późniejsze „dobro”.",
+      "status": "zaakceptowana",
+      "related": [
+        23,
+        30
+      ]
+    },
+    {
+      "id": 10,
+      "title": "„I to nie z urzędu.” — powinność i swoboda",
+      "fragment": "I to nie z urzędu.",
+      "body": "Ostatni wers przeciwstawia działanie wynikające z własnego przekonania działaniu wynikającemu z instytucjonalnego obowiązku. Dodatkowe napięcie rodzi się z późniejszym nauczycielstwem, również zawodem osadzonym w instytucji.",
+      "status": "zaakceptowana",
+      "related": [
+        28,
+        30
+      ]
+    },
+    {
+      "id": 11,
+      "title": "„całkowicie pięknym” — absolutyzacja piękna",
+      "fragment": "całkowicie pięknym aktorem",
+      "body": "Nietypowa łączliwość „całkowicie pięknym” sugeruje piękno odnoszące się do całej osoby, a nie wyłącznie atrakcyjność fizyczną czy wartość artystyczną. Osobliwość sformułowania może być znacząca sama w sobie.",
+      "status": "zaakceptowana",
+      "related": [
+        12,
+        24
+      ]
+    },
+    {
+      "id": 12,
+      "title": "„naśladować świat” — mimesis i realizm",
+      "fragment": "naśladować świat",
+      "body": "Naśladowanie może oznaczać odtwarzanie rzeczywistości, jej poznawanie i artystyczne przedstawianie. Kompetencja aktora nie sprowadza się do udawania innych ludzi.\n\n„Mimesis” (naśladowanie, przedstawienie) to także klasyczna kategoria refleksji o sztuce, a jej relacja do rzeczywistości jest jedną z osi namysłu nad realizmem. Nie znaczy to jednak, że „realizm” da się po prostu zmierzyć liczbą naśladowanych szczegółów: różne koncepcje realizmu zakładają różne sposoby reprezentowania świata. Wers pozwala więc przejść od techniki aktorskiej do pytania o adekwatność przedstawienia rzeczywistości.",
+      "status": "zmieniona",
+      "related": [
+        13,
+        24
+      ]
+    },
+    {
+      "id": 13,
+      "title": "„nim” — świat i widz",
+      "fragment": "przed nim siebie,",
+      "body": "„Nim” odsyła gramatycznie do „świata”. Nie musi jednak wykluczać widza: ludzie tworzą świat, który aktor naśladuje, a zarazem są tymi, przed którymi występuje. „Świat” i publiczność mogą więc w tej sytuacji zbiegać się referencyjnie.\n\nAktor ukrywa „siebie” przed światem, który ogląda, by „innym” nie zasłonić widoku „ich samych”. Jeśli świat jest zarazem widownią, ukrycie siebie staje się warunkiem oddania widzom ich własnego obrazu. To wzmacnia paradoks następnych dwóch wersów.",
+      "status": "zmieniona",
+      "related": [
+        14,
+        15
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Paradoks widzialności",
+      "fragment": "By nie zasłaniać innym / Widoku ich samych.",
+      "body": "Aktor usuwa siebie z pola widzenia po to, by inni mogli zobaczyć siebie. „Widok” jest jednocześnie dosłownym przedmiotem percepcji i metaforą samopoznania.",
+      "status": "zaakceptowana",
+      "related": [
+        13,
+        24
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Dwa użycia „siebie”",
+      "fragment": "siebie / siebie",
+      "body": "„Ukryć przed nim siebie” antycypuje „siebie nauczycielem”. Najpierw własne „ja” jest ukrywane, następnie może stać się przedmiotem nauczania i poznawania. Powtórzenie zaimka buduje relację między dwiema odległymi strofoidami.",
+      "status": "zaakceptowana",
+      "related": [
+        30,
+        31
+      ]
+    },
+    {
+      "id": 16,
+      "title": "„prawdziwym” — trzy znaczenia, jedna rola",
+      "fragment": "prawdziwym",
+      "body": "„Prawdziwy stand-uper” może znaczyć: autentyczny, a nie udawany; taki, jaki powinien być przedstawiciel tej profesji; rzeczywisty, nie tylko deklarowany. W dostarczonym haśle słownikowym „prawdziwy” łączy również zgodność z rzeczywistością i wzorcowość, a w osobnych użyciach — szczerość i prawość.\n\nNie ma podstaw, by kategorycznie wykluczyć odczytanie „stand-uper mówiący prawdę”. Kontekst stand-upu i późniejsze „Mógłbym powiedzieć prawdę” właśnie je uruchamiają. Nie wynika ono automatycznie ze znaczenia samego przymiotnika, ale jest pełnoprawnym sensem kontekstowym.\n\nParadoks polega na tym, że komik może mówić prawdę za pomocą zmyślenia, przesady, imitacji i żartu. „Prawdziwość” wykonawcy, prawdziwość jego opowieści oraz prawda, którą ujawnia dowcip, nie muszą się pokrywać.",
+      "status": "zmieniona",
+      "related": [
+        25,
+        18
+      ]
+    },
+    {
+      "id": 17,
+      "title": "„najnieprzyzwoiciej” — przyzwoitość, nadmiar, stopniowanie",
+      "fragment": "Trzymam pion najnieprzyzwoiciej",
+      "body": "„Trzymać pion” można dosłownie, pozostając wyprostowanym, i przenośnie, zachowując postawę czy kontrolę. W „stand-upie” dosłowność stania jest dodatkowo obecna w nazwie gatunku.\n\n„Przyzwoicie” może znaczyć zarówno „zgodnie z normami”, jak i „dostatecznie dobrze, całkiem nieźle”. „Nieprzyzwoicie” oznacza z jednej strony naruszenie obyczajności, z drugiej — skrajnie wysoki stopień cechy: „nieprzyzwoicie dobry” to nie ktoś gorszy od dobrego, lecz dobry aż do przesady, wręcz niestosownie dobry. Wielki słownik języka polskiego PAN wyróżnia takie „nieprzyzwoicie” jako osobny wykładnik stopnia cechy.\n\n„Najnieprzyzwoiciej” dokłada stopień najwyższy do wyrazu, który już zawiera „nie-” i może sygnalizować przekroczenie miary. Efekt jest paradoksalny: można trzymać pion najbardziej niezgodnie z przyzwoitością, a zarazem tak znakomicie, że aż nieprzyzwoicie. To nie tylko obsceniczność, ale też hiperbola perfekcji.\n\nStopniowanie jest tu celowo niecodzienne: zamiast zwykłego „najprzyzwoiciej” mamy „naj-nie-przyzwoiciej”. Zderzenie normy i jej zaprzeczenia nie rozstrzyga, czy chodzi o gorszą obyczajność, czy o lepsze wykonanie.\n\nŹródło leksykograficzne: WSJP PAN, hasło „nieprzyzwoicie II”.",
+      "status": "zmieniona",
+      "related": [
+        16,
+        20
+      ]
+    },
+    {
+      "id": 18,
+      "title": "„oni sami i one same” — publiczność i żarty",
+      "fragment": "niż oni sami i one same.",
+      "body": "„Oni” mogą odnosić się do komików, opowiadających żarty, ale również do widzów, których reakcje wykonawca zna i uprzedza. „One” mogą odnosić się do żartów (personifikowanych jako znających samych siebie) albo do kobiet na widowni. Zderzają się tu referencje do osób, wypowiedzi i publiczności.\n\nFraza „sami / same” wzmacnia autonomię tych domniemanych referentów — a mówiący twierdzi, że zna się na żartach nawet lepiej od nich. Można zatem usłyszeć przechwałkę, manifest kompetencji społecznej i żart z samego aktu porównywania.",
+      "status": "zmieniona",
+      "related": [
+        19,
+        20
+      ]
+    },
+    {
+      "id": 19,
+      "title": "„znam na pamięć” — emocje jako wiedza wyuczona",
+      "fragment": "Emocje i reakcje znam",
+      "body": "Znajomość na pamięć nie jest równoważna rozumieniu lub przeżywaniu emocji. Podmiot może perfekcyjnie rozpoznawać i odtwarzać zachowania, nie rozstrzygając, jaki ma do nich dostęp od wewnątrz.\n\nW perspektywie neuroróżnorodności wers można czytać jako opis świadomego, intelektualnego uczenia się reguł emocjonalnych i społecznych, rozpoznawania wzorców oraz przygotowywania reakcji. Dla części osób neuroatypowych taka wyuczona kompetencja ma istotne znaczenie. Nie stanowi ona jednak dowodu braku emocji ani uniwersalnej charakterystyki neuroróżnorodności. Słowa wiersza mówią o sposobie poznania; nie orzekają, co podmiot czuje.",
+      "status": "zmieniona",
+      "related": [
+        20,
+        31
+      ]
+    },
+    {
+      "id": 20,
+      "title": "„co najmniej” — pamięć czy odczuwanie?",
+      "fragment": "co najmniej na pamięć.",
+      "body": "Wyrażenie sugeruje, że znajomość na pamięć jest zaledwie minimum kompetencji. Równocześnie wskazuje właśnie pamięć jako jedyny wyraźnie nazwany mechanizm znajomości emocji. Powstaje napięcie między deklarowaną nadwyżką a rzeczywiście podaną podstawą wiedzy.\n\n„Co najmniej” działa też wstecz na „znam”: być może podmiot jedynie wyuczył się emocji, ich oznak i odpowiednich reakcji. Ale równie dobrze mówi, że pamięciowa znajomość jest dolnym progiem, a poza nią istnieje jeszcze odczuwanie, doświadczenie lub empatia. Wers jednocześnie otwiera i zawiesza oba odczytania.",
+      "status": "zmieniona",
+      "related": [
+        19,
+        25
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Trzy zawody i trzy wartości — referencja wsteczna",
+      "fragment": "dobro / piękno / prawdę",
+      "body": "„Dobro”, „piękno” i „prawda” odsyłają w tej samej kolejności do „dobrym”, „pięknym”, „prawdziwym”. Związek leksykalny jest jawny, ale odpowiadające sobie wyrażenia nie są semantycznie równoważne.",
+      "status": "zaakceptowana",
+      "related": [
+        22,
+        32
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Od cechy podmiotu do wartości",
+      "fragment": "Mógłbym …",
+      "body": "W strofoidach zawodowych dobro, piękno i prawda charakteryzują hipotetyczne wcielenia mówiącego. Następnie stają się przedmiotami możliwych działań. Przejście prowadzi od „bycia jakimś” do „zrobienia czegoś wobec wartości”.",
+      "status": "zaakceptowana",
+      "related": [
+        21,
+        27
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Dobro jako wezwanie",
+      "fragment": "odpowiedzieć na dobro",
+      "body": "Dobro występuje jako coś, na co można odpowiedzieć, a nie jako środek działania. To nie „odpowiedzieć dobrem”, lecz „odpowiedzieć na dobro”. Podmiot reaguje na wartość, która go poprzedza.",
+      "status": "zaakceptowana",
+      "related": [
+        7,
+        9,
+        25
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Piękno jako treść ekspresji",
+      "fragment": "wypowiedzieć piękno",
+      "body": "Piękno zostaje przedstawione jako coś, czemu można nadać językową postać. Nawiązuje to do aktorstwa, naśladowania świata i umożliwiania innym zobaczenia samych siebie.",
+      "status": "zaakceptowana",
+      "related": [
+        12,
+        14
+      ]
+    },
+    {
+      "id": 25,
+      "title": "„Mógłbym powiedzieć prawdę” — możliwość czy zakaz?",
+      "fragment": "Mógłbym powiedzieć prawdę.",
+      "body": "„Powiedzieć prawdę” jest znacznie bardziej konwencjonalnym połączeniem niż „wypowiedzieć piękno”. Po nietypowych konstrukcjach strofoida kończy się najbardziej zwyczajnym aktem mowy.\n\nAle „mógłbym” można usłyszeć nie tylko jako deklarację zdolności. W opozycji do późniejszego „A tak jestem…” rodzi pytanie: „Mógłbym powiedzieć prawdę” — a teraz nie mogę? Czy jedynie żart daje możliwość mówienia prawdy? Czy aktualna rola społeczna wymaga powagi, cenzury, unikania żartu albo ogranicza swobodę mówienia?\n\nWtedy pytanie cofa się o dwa wersy: czy teraz nie mogę „odpowiedzieć na dobro” i „wypowiedzieć piękna”? Możliwe jest jeszcze inne odczytanie: w każdym hipotetycznym zawodzie mógłbym realizować przede wszystkim jedną wartość — dobro, piękno lub prawdę. A w roli obecnej: wszystkie naraz, żadną albo inaczej rozumiane?\n\nTekst nie przesądza, czy podmiot opisuje zakaz, autocenzurę, utraconą możliwość czy tylko niedokonany wybór. Siła strofoidy polega na tym, że trzy pytania pozostają otwarte.",
+      "status": "zmieniona",
+      "related": [
+        16,
+        27,
+        32
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Trzy czasowniki mówienia",
+      "fragment": "odpowiedzieć / wypowiedzieć / powiedzieć",
+      "body": "„Odpowiedzieć”, „wypowiedzieć”, „powiedzieć” mają wspólny rdzeń, lecz różne struktury argumentowe i znaczenia. Pierwszy akcentuje reakcję, drugi ekspresję, trzeci przekazanie treści. Zmiana przedrostków odpowiada zmianie relacji między podmiotem a wartością.",
+      "status": "zaakceptowana",
+      "related": [
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "id": 27,
+      "title": "„Mógłbym” — możliwość nie jest spełnieniem",
+      "fragment": "Mógłbym",
+      "body": "Trzykrotne powtórzenie trybu przypuszczającego nie przesądza, że podmiot nie realizuje wartości. Oddziela jednak zdolność do działania od samego działania. Wcześniejsza wiedza o kompetencjach nie wystarcza, by stwierdzić ich etyczną, estetyczną lub poznawczą realizację.",
+      "status": "zaakceptowana",
+      "related": [
+        25,
+        28
+      ]
+    },
+    {
+      "id": 28,
+      "title": "„A tak” — kontrast i możliwa synteza",
+      "fragment": "A tak jestem pewnym",
+      "body": "Wyrażenie „A tak” można odczytać jako „tymczasem”, w opozycji do hipotetycznych karier, ale również jako „w taki sposób”. Bycie nauczycielem może więc oznaczać zarówno alternatywę wobec trzech zawodów, jak i ich syntezę.\n\n„Byłbym” i „mógłbym” to formy trybu przypuszczającego, nazywanego również warunkowym. „Jestem” przenosi orzekanie do teraźniejszej rzeczywistości; „pewnym” pozornie wzmacnia pewność kontrastującą z hipotetycznością wcześniejszych ról. To jednak przymiotnik, nie partykuła „pewnie”: trzeba rozstrzygać, czego dokładnie dotyczy.\n\nWcześniej nazwy szczegółowych profesji i rozbudowane opisy możliwości. Tutaj najbardziej ogólna kategoria spośród zawodowych ról wiersza — nauczyciel — i niemal żadna informacja o jego rzeczywistej pracy. Pozorna konkretność „jestem” sąsiaduje z ogólnością nazwy i możliwością różnych odczytań „pewnym”.",
+      "status": "zmieniona",
+      "related": [
+        29,
+        32
+      ]
+    },
+    {
+      "id": 29,
+      "title": "„pewnym / siebie” — przerzutnia",
+      "fragment": "pewnym / siebie",
+      "body": "Przerzutnia rozdziela elementy konstrukcji „pewny siebie”. Granica wersu uwydatnia samą pewność, zanim pojawi się określenie jej przedmiotu.",
+      "status": "zaakceptowana",
+      "related": [
+        30,
+        31
+      ]
+    },
+    {
+      "id": 30,
+      "title": "„siebie nauczycielem” — kto kogo uczy i za co?",
+      "fragment": "siebie nauczycielem.",
+      "body": "Drugi wers dopuszcza odczytanie „nauczycielem siebie”, z poetycko przestawionym dopełniaczowym określeniem rzeczownika. W tej interpretacji „siebie” zależy od „nauczycielem”, nie od „pewnym”. Jest to odczytanie składniowo nacechowane, ale semantycznie istotne: podmiot staje się jednocześnie nauczycielem i przedmiotem nauczania.\n\nPowraca także „pro bono” i „nie z urzędu”. Możliwe odwrócenie brzmi: mógłbym za pieniądze innych działać dla innych, a tak za pieniądze innych uczę przede wszystkim siebie. „Pro bono” komplikuje pierwszą połowę tej formuły, bo oznacza właśnie pomoc nieodpłatną; dlatego kontrast nie jest prostym rachunkiem wynagrodzeń, lecz prowokacyjną zmianą tego, kto odnosi korzyść z pracy. „Za cudze pieniądze uczę siebie” jest możliwym odczytaniem, a nie literalnym stwierdzeniem faktu o pracy podmiotu.\n\nW tej perspektywie rzekomy altruizm adwokata zostaje skontrastowany z możliwym egoizmem nauczyciela; ale nauczanie innych i uczenie się od nich mogą też zachodzić równocześnie.",
+      "status": "zmieniona",
+      "related": [
+        9,
+        15,
+        31
+      ]
+    },
+    {
+      "id": 31,
+      "title": "„uczę siebie” i „uczę się siebie”",
+      "fragment": "siebie nauczycielem.",
+      "body": "Przerzutnia udostępnia więcej niż jedną relację: „pewny siebie” oraz „nauczyciel siebie”. Ta druga pozwala odtworzyć zarówno „uczę siebie”, jak i „uczę się siebie”.\n\n„Uczę siebie” sugeruje czynność skierowaną na siebie jako ucznia; „uczę się siebie” — proces poznawania własnych właściwości, granic, emocji i reakcji. Nie jest to to samo składniowo: w drugim wyrażeniu „się” wchodzi w skład zwrotnej konstrukcji czasownikowej. Wiersz nie wypowiada żadnego z tych zdań, lecz rzeczownik „nauczycielem” i zaimek „siebie” pozwalają pomyśleć oba.",
+      "status": "zmieniona",
+      "related": [
+        30,
+        36
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Nauczyciel bez opisu — jedna wartość czy trzy?",
+      "fragment": "A tak jestem pewnym / siebie nauczycielem.",
+      "body": "Wcześniejsze zawody otrzymują przymiotniki związane z trzema wartościami. Nauczyciel zostaje określony przez stosunek do samego siebie. Nie wiadomo, czy jest dobry, piękny lub prawdziwy — wiadomo jedynie, że jest „pewnym / siebie”.\n\nPozostałe profesje mają bogaty, czasownikowy autoportret: podmiot broni, wierzy, działa, naśladuje, ukrywa, zna. Rzeczywistej roli nie towarzyszy ani jeden opis tego, co robi nauczyciel. Nie ma też jawnej referencji do dobra, piękna czy prawdy.\n\nMożliwe są dwie przeciwne lektury: każda z trzech wyobrażonych profesji została związana przede wszystkim z jedną wartością, podczas gdy bycie nauczycielem wymaga ich wszystkich; albo właśnie aktualna rola nie daje dostępu do żadnej z nich. Strofoida celowo nie przesądza sprawy.",
+      "status": "zmieniona",
+      "related": [
+        21,
+        36
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Trzy kliny — zwężanie wypowiedzi",
+      "fragment": "Trzy pierwsze strofoidy",
+      "body": "Pierwsze trzy strofoidy mają szerokie otwarcia i znacznie krótsze zakończenia. Ich pierwsze wersy zarazem wydłużają się kolejno: od adwokata, przez aktora, do stand-upera. Graficznie przypominają kliny o coraz szerszej podstawie początkowej.",
+      "status": "zaakceptowana",
+      "related": [
+        34,
+        3
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Od klina do prostokąta",
+      "fragment": "Trzy ostatnie strofoidy",
+      "body": "Strofoida o wartościach ma trzy wersy o zbliżonej długości, nauczycielska — dwa niemal równe, a finałowa — trzy praktycznie identyczne. W finale każdy wers ma dokładnie 26 znaków, ze spacjami i kropką. Wizualne zwężanie zostaje zastąpione stabilnością.",
+      "status": "zaakceptowana",
+      "related": [
+        33,
+        35
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Trzy cykliczne przestawienia",
+      "fragment": "Pewnie człowiekiem jestem. / Jestem pewnie człowiekiem. / Człowiekiem jestem pewnie.",
+      "body": "„Pewnie człowiekiem jestem.”, „Jestem pewnie człowiekiem.”, „Człowiekiem jestem pewnie.” — każde słowo zajmuje kolejno wszystkie trzy pozycje. Z sześciu matematycznie możliwych permutacji użyto trzech tworzących jeden cykl. Zmienia się układ informacji, nie zasób wyrazów. Prostokątna, ustabilizowana forma kontrastuje z nierozstrzygniętą pewnością człowieczeństwa.",
+      "status": "zaakceptowana",
+      "related": [
+        3,
+        36
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Paradoks samopoznania",
+      "fragment": "Człowiekiem jestem pewnie.",
+      "body": "Pierwsze strofoidy rozwijają wiedzę podmiotu o jego zdolnościach. Strofoida nauczycielska otwiera możliwość poznawania siebie. W finale podmiot nie znajduje nowego określenia swojej tożsamości, lecz przestawia trzy znane słowa. Nauczyciel siebie dochodzi nie do definicji siebie, lecz do składni.",
+      "status": "zaakceptowana",
+      "related": [
+        2,
+        31
+      ]
+    }
+  ],
+  "anchors": {
+    "0:0": [
+      1,
+      2,
+      3
+    ],
+    "1:0": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      33
+    ],
+    "1:1": [
+      7,
+      33
+    ],
+    "1:2": [
+      7,
+      8
+    ],
+    "1:3": [
+      9,
+      30
+    ],
+    "1:4": [
+      10,
+      30
+    ],
+    "2:0": [
+      4,
+      3,
+      5,
+      11,
+      33
+    ],
+    "2:1": [
+      12,
+      33
+    ],
+    "2:2": [
+      13,
+      15
+    ],
+    "2:3": [
+      13,
+      14
+    ],
+    "2:4": [
+      14
+    ],
+    "3:0": [
+      33,
+      3,
+      4,
+      5,
+      16
+    ],
+    "3:1": [
+      17
+    ],
+    "3:2": [
+      18
+    ],
+    "3:3": [
+      18
+    ],
+    "3:4": [
+      19
+    ],
+    "3:5": [
+      19,
+      20
+    ],
+    "4:0": [
+      22,
+      27,
+      23,
+      26,
+      21,
+      34
+    ],
+    "4:1": [
+      22,
+      27,
+      24,
+      26,
+      21
+    ],
+    "4:2": [
+      22,
+      27,
+      25,
+      26,
+      21
+    ],
+    "5:0": [
+      28,
+      32,
+      5,
+      29,
+      31,
+      34
+    ],
+    "5:1": [
+      15,
+      29,
+      30,
+      31,
+      32
+    ],
+    "6:0": [
+      1,
+      2,
+      3,
+      35,
+      36,
+      34
+    ],
+    "6:1": [
+      34,
+      3,
+      35,
+      36
+    ],
+    "6:2": [
+      35,
+      1,
+      2,
+      3,
+      36
+    ]
+  },
+  "source_notes": [
+    "SGPP, 2014, s. 45–46 — partykuła «pewnie»",
+    "WSJP PAN — «nieprzyzwoicie II»",
+    "Dostarczone wypisy słownikowe — «sprawa», «prawdziwy»"
+  ]
+}
