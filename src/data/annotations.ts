@@ -15,7 +15,7 @@ export const annotations: Annotation[] = [
   {verse:'1:3',phrase:'pro bono',ids:[9,30]},
   {verse:'1:4',phrase:'nie z urzędu',ids:[10,30]},
   {verse:'2:0',phrase:'Byłbym pewnie',ids:[3,4]},
-  {verse:'2:0',phrase:'całkowicie pięknym aktorem',ids:[5,11,33]},
+  {verse:'2:0',phrase:'zupełnie pięknym aktorem',ids:[5,11,33]},
   {verse:'2:1',phrase:'naśladować świat',ids:[12,33]},
   {verse:'2:2',phrase:'nim siebie',ids:[13,15]},
   {verse:'2:3',phrase:'nie zasłaniać innym',ids:[13,14]},

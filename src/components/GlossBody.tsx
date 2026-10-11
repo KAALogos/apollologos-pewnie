@@ -4,7 +4,7 @@ import type { ReactNode } from 'react';
 const terms: Record<number, string[]> = {
   2:['pewnie','na pewno'], 3:['Wędrówka','pewnie'],
   7:['bronić czegoś jak niepodległości','niepodległość','podległość','Sprawa','Słuszna sprawa'],
-  9:['pro bono','dobro'], 11:['całkowicie pięknym'],
+  9:['pro bono','dobro'], 11:['zupełnie pięknym'],
   12:['mimesis','realizm'], 13:['nim','świat','widz'],
   16:['Prawdziwy stand-uper','prawdziwość'],
   17:['Przyzwoicie','Nieprzyzwoicie','Najnieprzyzwoiciej','nieprzyzwoicie dobry','naj-nie-przyzwoiciej'],
