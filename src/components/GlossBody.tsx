@@ -22,8 +22,16 @@ const terms: Record<number, string[]> = {
 export function GlossBody({id,body}:{id:number;body:string}) {
   const words = terms[id] ?? [];
   return <div className="gloss-copy">{body.split('\n\n').map((paragraph,i) =>
-    <p key={i}>{markWords(paragraph,words)}</p>
+    <p key={i}>{withItalics(paragraph,words)}</p>
   )}</div>;
+}
+
+// *text* in the JSON marks italics (titles, foreign terms); everything else is emphasised by markWords.
+function withItalics(input: string, words: string[]): ReactNode[] {
+  return input.split(/(\*[^*]+\*)/).filter(Boolean).map((part,i) =>
+    part.length>2 && part.startsWith('*') && part.endsWith('*')
+      ? <em key={`it-${i}`}>{markWords(part.slice(1,-1),words)}</em>
+      : <span key={`tx-${i}`}>{markWords(part,words)}</span>);
 }
 
 function markWords(input: string, words: string[]): ReactNode[] {
