@@ -64,6 +64,16 @@ test('adnotacje znajdują dokładne fragmenty, nie nachodzą na siebie i obejmuj
   assert.deepEqual([...covered].sort((a,b)=>a-b),[...glossIds].sort((a,b)=>a-b));
 });
 
+test('znaki przy strofach wskazują istniejące strofoidy i glosy', () => {
+  const marks = [...annotationSource.matchAll(/\{stanza:(\d+),ids:\[([^\]]+)\],shape:'(wedge|rect|cycle)'/g)];
+  assert.equal(marks.length, 6);
+  for (const [, stanza, ids] of marks) {
+    assert.ok(stanzas[Number(stanza)], `brak strofoidy ${stanza}`);
+    for (const id of ids.split(',').map(Number)) assert.ok(glossIds.has(id), `strofoida ${stanza} → glosa ${id}`);
+  }
+  assert.deepEqual(stanzas.slice(-1)[0].length, 3);
+});
+
 test('struktura repo obsługuje publikację na GitHub Pages', () => {
   assert.ok(existsSync(new URL('.github/workflows/deploy.yml',root)));
   assert.ok(read('vite.config.ts').includes("base: './'"));

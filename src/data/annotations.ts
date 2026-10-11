@@ -45,6 +45,22 @@ export const annotations: Annotation[] = [
   {verse:'6:2',phrase:'Człowiekiem jestem pewnie',ids:[36,35,1,2,3,34]},
 ];
 
+/** Whole-stanza marks in the left margin, for the glosses about the poem's geometry. */
+export interface StanzaMark {
+  stanza: number;
+  ids: number[];
+  shape: 'wedge' | 'rect' | 'cycle';
+  label: string;
+}
+export const stanzaMarks: StanzaMark[] = [
+  {stanza:1,ids:[33],shape:'wedge',label:'Klin'},
+  {stanza:2,ids:[33],shape:'wedge',label:'Klin'},
+  {stanza:3,ids:[33],shape:'wedge',label:'Klin'},
+  {stanza:4,ids:[34],shape:'rect',label:'Od klina do prostokąta'},
+  {stanza:5,ids:[34],shape:'rect',label:'Od klina do prostokąta'},
+  {stanza:6,ids:[35,36,34],shape:'cycle',label:'Trzy przestawienia'},
+];
+
 export interface VersePiece {
   text: string;
   ids: number[];
