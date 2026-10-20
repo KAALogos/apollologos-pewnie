@@ -61,7 +61,7 @@ export function GlossPanel({activeId,availableIds,mode,trail,visited,onBack,onTr
           <div className="related-list">{entry.related.map(id => <button key={id} type="button" className={seen(id).trim()}
             onClick={()=>onChoose(id)}><span>{pad(id)} →</span>{glossById.get(id)?.title}</button>)}</div>
         </section>}
-      </> : <div className="panel-placeholder"><span>36</span><p>Wybierz podświetlony fragment wiersza albo otwórz indeks glos.</p></div>)}
+      </> : <div className="panel-placeholder"><span>36</span></div>)}
       {mode === 'index' && <section className="index-view">
         <label htmlFor="gloss-search">Wyszukaj w glosach</label>
         <input id="gloss-search" type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Słowo, fraza, numer…" />
@@ -74,14 +74,13 @@ export function GlossPanel({activeId,availableIds,mode,trail,visited,onBack,onTr
       </section>}
       {mode === 'connections' && <section className="network-view">
         <h2>Sieć odczytań</h2>
-        <p>Każde przejście przenosi do glosy związanej z aktualnym odczytaniem, a następnie wskazuje jej miejsce w wierszu.</p>
         {entry ? <>
           <div className="network-centre"><span>{String(entry.id).padStart(2,'0')}</span><strong>{entry.title}</strong></div>
           <div className="network-branches">{entry.related.map((id,index) =>
             <button key={id} className={`network-node${seen(id)}`} type="button" onClick={()=>onChoose(id)} style={{'--node-index':index} as CSSProperties}>
               <span>{pad(id)}</span><small>{glossById.get(id)?.title}</small>
             </button>)}</div>
-        </> : <p className="network-empty">Najpierw wybierz glosę, żeby zobaczyć jej powiązania.</p>}
+        </> : null}
       </section>}
     </div>
     <div className="panel-footer">

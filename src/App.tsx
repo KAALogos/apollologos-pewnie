@@ -1,7 +1,6 @@
 import { useCallback, useEffect, useRef, useState, type CSSProperties } from 'react';
 import { Poem } from './components/Poem';
 import { GlossPanel, type PanelMode } from './components/GlossPanel';
-import { edition } from './lib/model';
 
 interface Selection {id:number|null;ids:number[];originKey:string|null}
 const initial:Selection={id:null,ids:[],originKey:null};
@@ -98,7 +97,7 @@ export default function App(){
         <svg viewBox="0 0 46 34" aria-hidden="true" className="logo-mark">
           <path d="M8 2v30M23 2v30M38 2v30" />
           <circle cx="8" cy="17" r="3.5"/><circle cx="23" cy="17" r="3.5"/><circle cx="38" cy="17" r="3.5"/>
-        </svg><span><strong>APOLLOLOGOS</strong><small>WIERSZE / LEKTURA INTERAKTYWNA</small></span>
+        </svg><span><strong>APOLLOLOGOS</strong></span>
       </a>
       <div className="top-tools">
         <div className="font-tools" aria-label="Rozmiar pisma">
@@ -110,9 +109,8 @@ export default function App(){
     </header>
     <main className="workspace" id="poem-root" ref={poemRef}>
       <div className="reader-col">
-        <div className="reading-note"><span>UTWÓR</span><span>01 / {edition.title}</span></div>
         <div className="page-shell">
-          <div className="poem-scroll" tabIndex={0} aria-label="Wiersz; w razie potrzeby przewiń poziomo, aby zachować oryginalny układ wersów">
+          <div className="poem-scroll" tabIndex={0} aria-label="Wiersz">
             <Poem glossesEnabled={enabled} activeId={selection.id} visited={visited} onPick={pick}/>
           </div>
           <div className="reading-switch">
@@ -120,11 +118,8 @@ export default function App(){
               aria-expanded={enabled} aria-controls="gloss-panel">
               <span aria-hidden="true">{enabled?'−':'+'}</span> {enabled?'Wyłącz glosy':'Otwórz glosy'}
             </button>
-            {!enabled&&<p>Najpierw wiersz. Dopiero potem jego możliwe odczytania.</p>}
-            {enabled&&<p>Wybierz fragment tekstu albo znak przy strofie. Przeczytane glosy zmieniają kolor podkreślenia na zielony.</p>}
           </div>
         </div>
-        <footer className="reader-footer"><span>APOLLOLOGOS</span><span>Tekst zachowany bez zmian · 36 glos</span></footer>
       </div>
       {enabled&&showPanel&&<>
         <button className="panel-scrim" aria-label="Zamknij panel glos" type="button" onClick={()=>setShowPanel(false)}/>
