@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>CELOWNIK</title>
+<style>
+:root{--bg:#f4eadb;--paper:#fffaf2;--ink:#211b16;--muted:#716357;--line:#d8c7b2;--accent:#771b22;--accent2:#b77d3f;--active:#eec66d;--shadow:0 22px 70px rgba(50,34,20,.17)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:radial-gradient(circle at top left,#fff9ef 0,#f7efe3 38%,#eadac8 100%);font-family:ui-serif,Georgia,Cambria,"Times New Roman",serif;overflow-x:hidden}.wrap{width:min(1320px,100%);margin:0 auto;padding:34px 18px 72px}header{margin:0 auto 24px;max-width:1040px;padding-bottom:18px;border-bottom:1px solid var(--line)}.eyebrow{margin:0 0 8px;font:700 11px/1.2 system-ui,-apple-system,Segoe UI,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}h1{margin:0;font-size:clamp(34px,5.4vw,68px);letter-spacing:.1em;font-weight:520}.subtitle{margin:.45rem 0 0;max-width:780px;color:var(--muted);font:650 14px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}.stage{display:grid;grid-template-columns:minmax(0,690px) minmax(340px,520px);gap:40px;align-items:start;justify-content:center}.poem-card{background:rgba(255,250,242,.93);border:1px solid rgba(119,27,34,.16);border-radius:28px;box-shadow:var(--shadow);padding:clamp(24px,4vw,48px);min-height:70vh}.poem{white-space:pre-wrap;font-size:clamp(20px,2.3vw,30px);line-height:1.52;letter-spacing:.01em}.poem .title-line{font-size:1.2em;letter-spacing:.16em;font-weight:520}.poem .subtitle{font-size:.78em;letter-spacing:.02em;color:var(--muted);font-style:italic}.g{font-weight:inherit;cursor:pointer;border-radius:.15em;padding:.01em .06em;background:linear-gradient(to top,rgba(183,125,63,.34) 0 42%,transparent 42%);box-decoration-break:clone;-webkit-box-decoration-break:clone;transition:background .12s ease, box-shadow .12s ease}.g:hover,.g:focus,.g.active{background:var(--active);outline:none;box-shadow:0 0 0 3px rgba(238,198,109,.25)}.g.neg{background:linear-gradient(to top,rgba(119,27,34,.20) 0 45%,transparent 45%)}.floating-gloss{position:sticky;top:24px;background:rgba(255,250,242,.98);border:1px solid rgba(119,27,34,.18);border-radius:26px;box-shadow:var(--shadow);padding:20px 22px;max-height:calc(100vh - 48px);overflow:auto}.floating-gloss.empty{opacity:.72}.gloss-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(119,27,34,.13);padding-bottom:11px;margin-bottom:12px}.gloss-title{margin:0;color:#321115;font-size:clamp(22px,2vw,30px);line-height:1.12}.gloss-fragment{font-weight:900;margin:4px 0 0;color:var(--muted);font:750 12px/1.35 system-ui,-apple-system,Segoe UI,sans-serif;letter-spacing:.09em;text-transform:uppercase}.hide-gloss{border:1px solid rgba(119,27,34,.22);background:#fff5e6;color:#5d171c;border-radius:999px;padding:7px 10px;font:850 12px/1 system-ui,-apple-system,Segoe UI,sans-serif;cursor:pointer}.hide-gloss:hover{background:#f1dcbc}.gloss-body{font-size:17px;line-height:1.58}.gloss-body p{margin:0 0 .82em}.gloss-body p:last-child{margin-bottom:0}.gloss-body strong{font-weight:850;color:#4d1118}.gloss-body em{font-style:italic}.gloss-body .note,.gloss-body div.note{margin-top:1em;padding:12px 14px;border:1px solid rgba(119,27,34,.16);border-radius:16px;background:#fff4e3;color:#3c3028}.empty-msg{color:var(--muted);font:650 15px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}.fallback{display:none;margin-top:20px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font:650 13px/1.45 system-ui,-apple-system,Segoe UI,sans-serif}@media(max-width:980px){.stage{grid-template-columns:1fr}.floating-gloss{position:relative;top:auto;max-height:none;order:-1}.poem-card{min-height:auto}}
+/* Tryb pierwszej lektury: czysty tekst, glosy dopiero po przycisku pod wierszem. */
+body.glosses-off .stage{grid-template-columns:minmax(0,760px)}
+body.glosses-off .poem-card{margin-inline:auto;width:min(760px,100%)}
+body.glosses-off .floating-gloss{display:none}
+body.glosses-off .g,
+body.glosses-off .g.neg,
+body.glosses-off .g:hover,
+body.glosses-off .g:focus,
+body.glosses-off .g.active{background:transparent;box-shadow:none;cursor:inherit;padding:0;border-radius:0;outline:none}
+body.glosses-off .g{pointer-events:none}
+.gloss-start{margin-top:3.2rem;padding-top:1.4rem;border-top:1px solid var(--line);font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:var(--muted)}
+.gloss-start p{margin:0 0 .8rem;font-size:14px;line-height:1.5}
+.gloss-start button{appearance:none;border:1px solid rgba(119,27,34,.45);border-radius:999px;background:var(--accent);color:#fff;padding:.82rem 1.15rem;font:750 13px/1 system-ui,-apple-system,Segoe UI,sans-serif;letter-spacing:.04em;cursor:pointer;box-shadow:0 10px 26px rgba(119,27,34,.17)}
+.gloss-start button:hover{filter:brightness(1.05)}
+.gloss-start button:disabled{background:#7d7165;border-color:#7d7165;cursor:default;box-shadow:none}
+.gloss-start .gloss-start-status{margin-top:.75rem;font-size:13px;color:var(--muted)}
+body.glosses-on .gloss-start{border-top-color:rgba(119,27,34,.22)}
+
+@media print{body{background:white}.wrap{padding:0}.stage{display:block}.floating-gloss{display:none}.poem-card{box-shadow:none;border:0;padding:0}.g,.g.neg{background:transparent;padding:0}}
+</style>
+</head>
+<body class="glosses-off">
+<div class="wrap">
+<header>
+<h1>CELOWNIK</h1>
+</header>
+<main class="stage">
+<section aria-label="Tekst wiersza" class="poem-card">
+<div class="poem" id="poemText">{{POEM}}</div>
+<div class="gloss-start" id="glossStart">
+<button id="enableGlosses" type="button">Włącz glosy</button>
+</div>
+</section>
+<aside aria-label="Glosa" aria-live="polite" class="floating-gloss empty" id="floatingGloss">
+<div class="gloss-head">
+<div>
+<h2 class="gloss-title" id="glossTitle">Glosa</h2>
+<p class="gloss-fragment" id="glossFragment"></p>
+</div>
+<button aria-label="Wyczyść glosę" class="hide-gloss" type="button">×</button>
+</div>
+<div class="gloss-body" id="glossBody"></div>
+</aside>
+</main>
+</div>
+<script id="gloss-data" type="application/json">{{GLOSSES}}</script>
+<script>
+const glosses = JSON.parse(document.getElementById('gloss-data').textContent);
+const popupEl = document.getElementById('floatingGloss');
+const titleEl = document.getElementById('glossTitle');
+const fragmentEl = document.getElementById('glossFragment');
+const bodyEl = document.getElementById('glossBody');
+const closeEl = document.querySelector('.hide-gloss');
+const enableEl = document.getElementById('enableGlosses');
+const hotspots = Array.from(document.querySelectorAll('.g[data-gloss]'));
+let current = null;
+let glossesEnabled = false;
+function clearActive() { hotspots.forEach(el => el.classList.remove('active')); }
+function setHotspotsEnabled(enabled) {
+  glossesEnabled = enabled;
+  hotspots.forEach(el => {
+    el.setAttribute('role','button');
+    if (enabled) {
+      el.setAttribute('tabindex','0');
+      el.setAttribute('aria-disabled','false');
+    } else {
+      el.setAttribute('tabindex','-1');
+      el.setAttribute('aria-disabled','true');
+      el.classList.remove('active');
+    }
+  });
+}
+function showGloss(key, el) {
+  if (!glossesEnabled) { return; }
+  const item = glosses[key];
+  if (!item) { return; }
+  clearActive();
+  if (el) { el.classList.add('active'); }
+  titleEl.textContent = item.title || key;
+  fragmentEl.textContent = (item.fragment || '').replace(/\s+/g, ' ').trim();
+  bodyEl.innerHTML = item.body || '<p>Brak treści glosy.</p>';
+  popupEl.classList.remove('empty');
+  current = key;
+}
+function resetGloss() {
+  clearActive();
+  current = null;
+  titleEl.textContent = 'Glosa';
+  fragmentEl.textContent = '';
+  bodyEl.innerHTML = '';
+  popupEl.classList.add('empty');
+}
+function enableGlosses() {
+  document.body.classList.remove('glosses-off');
+  document.body.classList.add('glosses-on');
+  setHotspotsEnabled(true);
+  resetGloss();
+  if (enableEl) {
+    enableEl.textContent = 'Glosy włączone';
+    enableEl.disabled = true;
+  }
+}
+hotspots.forEach(el => {
+  el.addEventListener('click', ev => { ev.stopPropagation(); showGloss(el.dataset.gloss, el); });
+  el.addEventListener('keydown', ev => {
+    if (!glossesEnabled) { return; }
+    if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); showGloss(el.dataset.gloss, el); }
+    if (ev.key === 'Escape') { resetGloss(); }
+  });
+});
+if (enableEl) { enableEl.addEventListener('click', enableGlosses); }
+if (closeEl) { closeEl.addEventListener('click', resetGloss); }
+document.addEventListener('keydown', ev => { if (glossesEnabled && ev.key === 'Escape') resetGloss(); });
+setHotspotsEnabled(false);
+</script>
+</body>
+</html>
